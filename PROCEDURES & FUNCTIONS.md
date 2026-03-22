@@ -17,7 +17,7 @@ END FUNCTION
 EXAMPLE PROCEDURE
 
 FIND SIMPLE INTEREST
-
+```
 PSEUDO CODE 
 
 PROCEDURE SIMINT(PA : INTEGER, ROI : REAL, NOY : REAL)
@@ -27,7 +27,7 @@ PRINT SI
 END PROCEDURE
 
 CALL SIMINT(1000, 2.3, 1.2)
-
+```
 CODE 
 
     static void simint(int pa, double roi, double noy) {
