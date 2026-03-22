@@ -1,6 +1,6 @@
 
 DO-WHILE LOOP
-
+```
 PSEUDO CODE
 
 DECLARE X : INTEGER
@@ -12,7 +12,6 @@ WHILE I <=10
 
 CODE 
 
-class DoWhileLoop {
     public static void main(String[] args) {
 
         int x;
@@ -23,10 +22,10 @@ class DoWhileLoop {
             i++;
         } while (i <= 10);
     }
-}
+```
 
 WHILE LOOP
-
+```
 PSEUDO CODE
 
 DECLARE i : INTEGER
@@ -38,7 +37,6 @@ END WHILE
 
 CODE
 
-class WhileLoop {
     public static void main(String[] args) {
 
         int i = 1;
@@ -48,10 +46,10 @@ class WhileLoop {
             i++;
         }
     }
-}
+```
 
 FOR LOOP
-
+```
 PSEUDO CODE
 
 DECLARE i : INTEGER
@@ -63,9 +61,6 @@ END FOR
 
 CODE
 
-import java.util.Scanner;
-
-class ForLoop {
     public static void main(String[] args) {
 
         int i, num;
@@ -77,12 +72,12 @@ class ForLoop {
             System.out.println(i * num);
         }
     }
-}
+```
 
 EXAMPLE
 
 1. SUM THE SERIES 1+2+3+4+5------N
-
+```
 PSEUDO CODE 
 
 DECLARE SUM : INTEGER
@@ -95,9 +90,6 @@ PRINT SUM
 
 CODE
 
-import java.util.Scanner;
-
-class SumN {
     public static void main(String[] args) {
 
         int sum, n, i;
@@ -113,11 +105,12 @@ class SumN {
 
         System.out.println(sum);
     }
-}
+```
 
 2.  REVERSE NUMBER
-
+```
 PSEUDO CODE
+
 DECLARE N : INTEGER
 DECLARE R : INTEGER
 DECLARE B : INTEGER
@@ -132,9 +125,6 @@ PRINT B
 
 CODE 
 
-import java.util.Scanner;
-
-class ReverseNumber {
     public static void main(String[] args) {
 
         int n, r, b;
@@ -152,10 +142,10 @@ class ReverseNumber {
 
         System.out.println(b);
     }
-}
+```
 
 3. PALINDROME
-
+```
 PSEUDO CODE
 
 DECLARE N : INTEGER
@@ -179,9 +169,6 @@ END IF
 
 CODE
 
-import java.util.Scanner;
-
-class Palindrome {
     public static void main(String[] args) {
 
         int n, r, b, x;
@@ -204,10 +191,10 @@ class Palindrome {
             System.out.println("NOT PALINDROME");
         }
     }
-}
+```
 
 4. ARMS STROENG
-
+```
 PSEUDO CODE
 
 DECLARE N : INTEGER
@@ -230,9 +217,6 @@ END IF
 
 CODE
 
-import java.util.Scanner;
-
-class Armstrong {
     public static void main(String[] args) {
 
         int n, r, b, x;
@@ -255,11 +239,11 @@ class Armstrong {
             System.out.println("NOT ARM STRONG");
         }
     }
-}
+```
 
 5. COUNT ALL DIGIT OF A 12345
-
-PSEUDO cODE
+```
+PSEUDO CODE
 
 DECLARE N : INTEGER
 DECLARE COUNT : INTEGER
@@ -273,9 +257,6 @@ PRINT COUNT
 
 CODE
 
-import java.util.Scanner;
-
-class CountDigits {
     public static void main(String[] args) {
 
         int n, count;
@@ -292,10 +273,10 @@ class CountDigits {
 
         System.out.println(count);
     }
-}
+```
 
 6. TO COUNT HOW MANY TIMES DIGIT PRESENT IN A NUM
-
+```
 PSEUDO CODE 
 
 DECLARE NUM : INTEGER
@@ -317,9 +298,6 @@ PRINT COUNT
 
 CODE 
 
-import java.util.Scanner;
-
-class DigitCount {
     public static void main(String[] args) {
 
         int num, count, r, n;
@@ -341,7 +319,7 @@ class DigitCount {
 
         System.out.println(count);
     }
-}
+```
 
 
 
