@@ -30,8 +30,6 @@ CALL SIMINT(1000, 2.3, 1.2)
 
 CODE 
 
-class SimpleInterest {
-
     static void simint(int pa, double roi, double noy) {
         double si;
         si = (pa * roi * noy) / 100;
@@ -41,7 +39,6 @@ class SimpleInterest {
     public static void main(String[] args) {
         simint(1000, 2.3, 1.2);
     }
-}
 
 FIND CUBE
 
@@ -57,8 +54,6 @@ CALL CUBE(3)
 
 CODE
 
-class Cube {
-
     static void cube(int value) {
         int ans;
         ans = value * value * value;
@@ -68,7 +63,6 @@ class Cube {
     public static void main(String[] args) {
         cube(3);
     }
-}
 
 FIND TRIANGLE
 
@@ -82,8 +76,6 @@ CALL TRIANGLE(5.1, 3.6)
 
 CODE
 
-class Triangle {
-
     static void triangle(double base, double height) {
         System.out.println(0.5 * base * height);
     }
@@ -91,7 +83,7 @@ class Triangle {
     public static void main(String[] args) {
         triangle(5.1, 3.6);
     }
-}
+
 
 FUNCTION EXAMPLE 
 
@@ -108,8 +100,6 @@ PRINT CALL SIMINT(10, 3, 4)
 
 CODE 
 
-class SimpleInterestFunction {
-
     static double simint(int pa, double roi, double noy) {
         double si;
         si = (pa * roi * noy) / 100;
@@ -119,7 +109,7 @@ class SimpleInterestFunction {
     public static void main(String[] args) {
         System.out.println(simint(10, 3, 4));
     }
-}
+
 
 FIND CUBE
 
@@ -132,8 +122,6 @@ PRINT CALL CUBE(4)
 
 CODE 
 
-class CubeFunction {
-
     static int cube(int value) {
         return value * value * value;
     }
@@ -141,7 +129,6 @@ class CubeFunction {
     public static void main(String[] args) {
         System.out.println(cube(4));
     }
-}
 
 FIND ABSLUTE VALUE
 
@@ -155,9 +142,7 @@ RETURN -A
 END FUNCTION 
 PRINT CALL ABSVALUE(5)
 
-CODE 
-
-class AbsoluteValue {
+CODE
 
     static int absvalue(int a) {
         if (a >= 0) {
@@ -170,7 +155,6 @@ class AbsoluteValue {
     public static void main(String[] args) {
         System.out.println(absvalue(5));
     }
-}
 
 
 
