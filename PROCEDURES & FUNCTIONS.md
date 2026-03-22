@@ -40,9 +40,9 @@ CODE
         simint(1000, 2.3, 1.2);
     }
 ```
-```
-FIND CUBE
 
+FIND CUBE
+```
 PSEUDO CODE 
 
 PROCEDURE CUBE(VALUE : INTEGER)
@@ -66,7 +66,7 @@ CODE
     }
 ```
 FIND TRIANGLE
-
+```
 PSEUDO CODE
 
 PROCEDURE TRIANGLE(BASE : REAL, HEIGHT : REAL)
@@ -84,10 +84,10 @@ CODE
     public static void main(String[] args) {
         triangle(5.1, 3.6);
     }
-
+```
 
 FUNCTION EXAMPLE 
-
+```
 FIND SIMPLE INTREST
 
 PSEUDO CODE 
@@ -110,10 +110,10 @@ CODE
     public static void main(String[] args) {
         System.out.println(simint(10, 3, 4));
     }
-
+```
 
 FIND CUBE
-
+```
 PSEUDO CODE 
 
 FUNCTION CUBE (VALUE : INTEGER) RETURN INTEGER
@@ -130,9 +130,9 @@ CODE
     public static void main(String[] args) {
         System.out.println(cube(4));
     }
-
+```
 FIND ABSLUTE VALUE
-
+```
 PSEUDO CODE 
 
 FUNCTION ABSVALUE (A: INTEGER) : INTEGER
@@ -156,7 +156,7 @@ CODE
     public static void main(String[] args) {
         System.out.println(absvalue(5));
     }
-
+```
 
 
 
