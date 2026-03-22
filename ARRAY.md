@@ -34,9 +34,9 @@ CODE
         }
     }
 ```
-```
-FIND MAXIMUM IN ARRAY
 
+FIND MAXIMUM IN ARRAY
+```
 PESUDO CODE
 
 DECLARE A : ARRAY [5] OF INTEGER
@@ -52,7 +52,8 @@ END IF
 END FOR 
 PRINT MAX
 
-CODE 
+CODE
+
     public static void main(String[] args) {
 
         int A[] = new int[5];
@@ -102,7 +103,8 @@ END FOR
 END FOR 
 PRINT SUM
 
-CODE 
+CODE
+
     public static void main(String[] args) {
 
         int X[][] = new int[2][2];
@@ -208,7 +210,8 @@ PRINT Z[I][J]
 END FOR 
 END FOR
 
-CODE 
+CODE
+
     public static void main(String[] args) {
 
         int X[][] = new int[3][3];
