@@ -27,7 +27,7 @@ PRINT SI
 END PROCEDURE
 
 CALL SIMINT(1000, 2.3, 1.2)
-```
+
 CODE 
 
     static void simint(int pa, double roi, double noy) {
@@ -39,7 +39,8 @@ CODE
     public static void main(String[] args) {
         simint(1000, 2.3, 1.2);
     }
-
+```
+```
 FIND CUBE
 
 PSEUDO CODE 
@@ -63,7 +64,7 @@ CODE
     public static void main(String[] args) {
         cube(3);
     }
-
+```
 FIND TRIANGLE
 
 PSEUDO CODE
