@@ -1,13 +1,13 @@
 ARRAY
 
 DECLARATION 
-
+```
 DECLARE A : ARRAY [5] OF INTEGER
 DECLARE B : ARRAY [10] OF REAL
 DECLARE NAME : ARRAY [10] OF STRING
-
+```
 PSEUDO CODE
-
+```
 DECLARE A : ARRAY [0 : 4 ] OF INTEGER
 FOR I := 0 TO 4
 READ A[I]
@@ -18,9 +18,6 @@ END FOR
 
 CODE 
 
-import java.util.Scanner;
-
-class ArrayIO {
     public static void main(String[] args) {
 
         int A[] = new int[5];
@@ -36,8 +33,8 @@ class ArrayIO {
             System.out.println(A[i]);
         }
     }
-}
-
+```
+```
 FIND MAXIMUM IN ARRAY
 
 PESUDO CODE
@@ -56,10 +53,6 @@ END FOR
 PRINT MAX
 
 CODE 
-
-import java.util.Scanner;
-
-class MaxArray {
     public static void main(String[] args) {
 
         int A[] = new int[5];
@@ -81,10 +74,9 @@ class MaxArray {
 
         System.out.println(max);
     }
-}
-
+```
 MULTI DIMENSIONAL ARRAY
-
+```
 DECLARATION
 
 DECLARE X : ARRAY[2][2] OF INTEGER
@@ -92,9 +84,9 @@ OR
 DECLARE X : ARRAY[0:1][0:1] OF INTEGER
 OR 
 INTEGER X[2][2]
-
+```
 PSEUDO CODE 
-
+```
 DECLARE X: ARRAY[2][2] OF INTEGER
 DECLARE SUM : INTEGER
 SUM := 0
@@ -111,10 +103,6 @@ END FOR
 PRINT SUM
 
 CODE 
-
-import java.util.Scanner;
-
-class MatrixSum {
     public static void main(String[] args) {
 
         int X[][] = new int[2][2];
@@ -138,10 +126,9 @@ class MatrixSum {
 
         System.out.println(sum);
     }
-}
-
+```
 FIND EVEN ODD
-
+```
 PSEUDO CODE 
 
 DECLARE X : ARRAY[3][3] OF INTEGER
@@ -166,9 +153,6 @@ PRINT ODD
 
 CODE 
 
-import java.util.Scanner;
-
-class EvenOddMatrix {
     public static void main(String[] args) {
 
         int X[][] = new int[3][3];
@@ -198,10 +182,9 @@ class EvenOddMatrix {
         System.out.println(even);
         System.out.println(odd);
     }
-}
-
+```
 ADDITON OF MATRIX
-
+```
 PSEUDO CODE 
 
 DECLARE X : ARRAY [3][3] OF INTEGER
@@ -226,10 +209,6 @@ END FOR
 END FOR
 
 CODE 
-
-import java.util.Scanner;
-
-class MatrixAddition {
     public static void main(String[] args) {
 
         int X[][] = new int[3][3];
@@ -258,8 +237,7 @@ class MatrixAddition {
             }
         }
     }
-}
-
+```
 
 
 
