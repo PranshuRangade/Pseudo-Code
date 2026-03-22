@@ -3,7 +3,7 @@
 IF CONDITON
 
 PSEUDO CODE
-
+```
 DECLARE X: INTEGER
 READ X
 IF X >= 5 THEN
@@ -12,9 +12,6 @@ END IF
 
 CODE
 
- import java.util.Scanner;
-
-class IfCondition {
     public static void main(String[] args) {
 
         int x;
@@ -26,10 +23,9 @@ class IfCondition {
             System.out.println("X is greater than or equal to 5");
         }
     }
-}
-
+```
 IF-ELSE CONDITION
-
+```
 PSEUDO CODE
 
 DECLARE X: INTEGER
@@ -42,9 +38,6 @@ END IF
 
 CODE
 
-import java.util.Scanner;
-
-class IfElseCondition {
     public static void main(String[] args) {
 
         int x;
@@ -58,10 +51,10 @@ class IfElseCondition {
             System.out.println("X is less than 5");
         }
     }
-}
+```
 
 IF-ELSE-IF LADDER
-
+```
 PSEUDO CODE
 
 DECLARE a : INTEGER
@@ -83,9 +76,6 @@ PRINT "FAIL"
 
 CODE
 
-import java.util.Scanner;
-
-class Grade {
     public static void main(String[] args) {
 
         int a, b, c, d;
@@ -109,11 +99,10 @@ class Grade {
             System.out.println("FAIL");
         }
     }
-}
-
+```
 
 NESTED IF
-
+```
 PSEUDO CODE
 
 DECLARE UID : STRING
@@ -129,9 +118,6 @@ PRINT "INVALID UID"
 
 CODE
 
-import java.util.Scanner;
-
-class Login {
     public static void main(String[] args) {
 
         String UID, PASS;
@@ -150,10 +136,10 @@ class Login {
             System.out.println("INVALID UID");
         }
     }
-}
+```
 
 CASE OF
-
+```
 PSEUDO CODE
 
 READ VALUE
@@ -167,9 +153,6 @@ END CASE
 
 CODE
 
-import java.util.Scanner;
-
-class SwitchCase {
     public static void main(String[] args) {
 
         int value;
@@ -194,4 +177,4 @@ class SwitchCase {
                 System.out.println("WRONG");
         }
     }
-}
+```
